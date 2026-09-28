@@ -20,35 +20,35 @@ from PIL import Image, ImageFilter, ImageOps
 PROFILE = {
     "name": "Asad Hanif",
     "host": "asadali1010@github",
-    "headline": "AI-Powered User Interfaces · Angular · TypeScript",
+    "headline": "Agentic AI Engineer · AI Agents · LLM Applications",
     "rotate": [
-        "Real-time streaming UIs for AI agents",
-        "Conversational & voice interfaces",
-        "Reusable component architecture",
-        "Mobile-first, responsive web apps",
+        "Agent orchestration & tool calling",
+        "Guardrails, retries & fallback handling",
+        "Voice & conversational AI",
+        "Real-time Angular & React interfaces",
     ],
     "rows": [
-        ("ROLE", "Senior Frontend Developer"),
-        ("COMPANY", "Flow9 · remote · 07/2025 – now"),
+        ("ROLE", "Agentic AI Developer"),
+        ("COMPANY", "Flow9 · 07/2025 – now"),
         ("LOCATION", "Lahore, Pakistan"),
-        ("EXPERIENCE", "Building frontends since 2017"),
-        ("FOCUS", "AI-powered UIs · streaming · chat & voice"),
-        ("BUILDING", "UI for an AI-native CRM & outreach platform"),
+        ("EXPERIENCE", "Building software since 2017"),
+        ("FOCUS", "Agents · tool calling · guardrails · voice"),
+        ("BUILDING", "Production AI agents for an AI-native CRM"),
     ],
     "stack": [  # (label, kind) kind -> dot colour: f=frontend, a=AI, e=engineering
-        ("Angular", "f"), ("TypeScript", "f"), ("JavaScript", "f"), ("SCSS", "f"),
-        ("Tailwind CSS", "f"), ("PrimeNG", "f"), ("Material UI", "f"),
-        ("REST APIs", "e"), ("Streaming UIs", "a"), ("Tool calling", "a"), ("Prompt engineering", "a"),
+        ("Agent orchestration", "a"), ("Tool calling", "a"), ("Structured outputs", "a"), ("Guardrails", "a"),
+        ("Prompt engineering", "a"), ("TypeScript", "f"), ("Angular", "f"), ("React", "f"),
+        ("REST APIs", "e"), ("Git", "e"),
     ],
-    "projects": [("JARVIS", "Voice-first agentic AI software-engineering platform", "INDEPENDENT")],
+    "projects": [("JARVIS", "Agentic SE platform: voice or Jira task to prepared PR", "INDEPENDENT")],
     "links": [("in", "asad-hanif-994b051a"), ("gh", "Asadali1010"), ("@", "asadalihaneef@hotmail.com")],
-    "tag": "PROFILE / FRONTEND ENGINEERING",
-    "tagline": "UI for AI-powered products",
-    "sub": "Angular · TypeScript · mobile-first",
-    "command": "ship --mobile-first",
-    "aria": "Asad Hanif, Senior Frontend Developer at Flow9 in Lahore, Pakistan, building AI-powered user "
-            "interfaces with Angular and TypeScript. ASCII portrait beside a terminal panel listing focus areas, "
-            "stack, the JARVIS project and contact links.",
+    "tag": "PROFILE / AGENTIC AI ENGINEERING",
+    "tagline": "Agents that plan, act & recover",
+    "sub": "LLM apps · TypeScript · Angular · React",
+    "command": "agent run --with-guardrails",
+    "aria": "Asad Hanif, Agentic AI Engineer and Agentic AI Developer at Flow9 in Lahore, Pakistan, building "
+            "production AI agents and LLM applications with TypeScript, Angular and React. ASCII portrait beside a "
+            "terminal panel listing focus areas, stack, the JARVIS project and contact links.",
 }
 
 CROP = (100, 405, 640, 840)         # head + shoulders + upper chest, source-photo pixels
